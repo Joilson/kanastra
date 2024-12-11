@@ -63,7 +63,7 @@ Nao cobri todos os cenarios, porem adicionei alguns para que pudessem avaliar me
 
 ```
     docker compose up --build
-    chmod -R 777 storage/logs
+    chmod -R 777 storage
     docker compose exec app composer install 
     docker compose exec app php artisan migrate 
     
