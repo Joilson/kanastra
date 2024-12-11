@@ -83,7 +83,7 @@ Output ex.:
 [2024-12...] local.INFO: Payment Slip Builder is requested for new pdf file 1adb6ccf-ff16-467f-bea7-5f05d494280f   
 [2024-12...] local.INFO: Payment slip file was created to send for customer {"generated":{"filePath":"generated/b503befd-12c2-48c9-81d4-b9df46cac78a.pdv","createdAt":"2024-12-11T18:27:46+00:00","uuid":"1adb6ccf-ff16-467f-bea7-5f05d494280f "}}
 [2024-12...] local.INFO: Email communication dispatched {"data":{"body":"Hi John Doe new payment was available for payment, please see attachments.","sender":"payments@kanastra.com","receiver":"johndoe@kanastra.com.br","subject":"Hy John Doe, you will be poorer","attachments":["generated/b503befd-12c2-48c9-81d4-b9df46cac78a.pdv"],"paymentSlipDebtId":"1adb6ccf-ff16-467f-bea7-5f05d494280f "}}
-[2024-12...] local.INFO: Email communication dispatched {"data":{"body":"Hy your list is already processed with 0 success items","sender":"larissa@kanastra.com","receiver":"john@itau.com","subject":"getting rich","attachments":[],"customerEmail":"john@itau.com"}}
+[2024-12...] local.INFO: Email communication dispatched {"data":{"body":"Hy your list is already processed with 1 success items","sender":"larissa@kanastra.com","receiver":"john@itau.com","subject":"getting rich","attachments":[],"customerEmail":"john@itau.com"}}
 ```
 
 
