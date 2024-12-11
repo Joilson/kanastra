@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/usr/share/nginx
+    networks:
+      - kanastra
+
+  mysql:
+    image: mysql:5.7.22
+    ports:
+      - 3301:3306
+    environment:
+      MYSQL_DATABASE: kanastra
+      MYSQL_ROOT_PASSWORD: 123
+    volumes:
+      - .docker/database:/var/lib/mysql
+    networks:
+      - kanastra
+
+networks:
+  kanastra:
+    driver: bridge
